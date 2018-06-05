@@ -1,11 +1,8 @@
-h1 {
+#header{
   color: #8B0000;
   text-align: center;
   padding-top: 1%;
   font-family: "meteor";
-}
-
-#header{
 }
 
 #content{
@@ -26,6 +23,12 @@ h1 {
 @font-face {
     font-family: 'meteor'; /*a name to be used later*/
     src: url('meteor.ttf'); /*URL to font*/
+}
+
+.typing {
+  font-size: 30px;
+  color: #8B0000;
+  font-family: "meteor";
 }
 
 /* Style the tab */
@@ -67,4 +70,10 @@ h1 {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	 display: none;
 }
