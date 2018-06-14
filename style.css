@@ -5,6 +5,10 @@
   font-family: "meteor";
 }
 
+h2 {
+  font-size: 22px;
+}
+
 #content{
   padding-top: 1.8%;
   padding-left: 8%;
@@ -19,9 +23,10 @@
 #projects{
   font-size: 20px;
   text-align: left;
+  column-count: 2
 }
 
-#about{
+#reading{
   font-size: 20px;
   text-align: left;
 }
@@ -36,7 +41,7 @@
 }
 
 
-#resumeimg{
+.centimg{
   width: 60%;
   display: block;
   margin: 0 auto;
@@ -57,10 +62,10 @@
 
 /* Style the tab */
 .tab {
-    overflow: hidden;
-    /*border: 1px solid black;*/
-    /*background-color: #f1f1f1;*/
-    display: flex;
+  overflow: auto;
+  /*border: 1px solid black;*/
+  /*background-color: #f1f1f1;*/
+  display: flex;
   justify-content: center;
   padding-top: 0%
 }
