@@ -1,6 +1,6 @@
 $(function(){
   $(".iama").typed({
-      strings: ["Statistician", "Epidemiologist", "Developer^3000"],
+      strings: ["Statistician", "Runner", "Epidemiologist", "Backpacker", "Developer^2000"],
       typeSpeed: 50,
       backSpeed: 20,
       loop: true,
