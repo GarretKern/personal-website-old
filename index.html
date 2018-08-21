@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <head>
   <title> Garret Kern </title>
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -17,7 +19,7 @@
       <button class="tablinks active" onclick="openTab(event, 'home')">HOME</button>
       <button class="tablinks" onclick="openTab(event, 'projects')">PROJECTS</button>
       <button class="tablinks" onclick="openTab(event, 'resume')">RESUME</button>
-      <button class="tablinks" onclick="openTab(event, 'reading')">BOOKS</button>
+      <!--<button class="tablinks" onclick="openTab(event, 'reading')">BOOKS</button>-->
     </div>
 
 
@@ -34,40 +36,41 @@
       <div id = "projects"  class = "tabcontent">
         <h2> Tron (2018)</h2>
         <p> Simple Tron desktop app created over a few days because I was curious about electron.js.
-          User can play against an AI implementing Dijikstra's algorithm </p>
-
+          User can play against an AI implementing a minimax algorithm </p>
         <img src="images/tron.PNG" class = "centimg">
+        <br>
 
         <h2> EZ Chat (2018)</h2>
-
         <p> Simple chat web-app to teach myself the ultra-basics of socket.io and express.js. </p>
         <img src="images/ezHome.PNG" class = "centimg"><br>
         <img src="images/ezChat.PNG" class = "centimg">
-
-
-        <h2> Maze Generation (2015)</h2>
-        <p> Random maze generation in Java using Prim's algorithm, later added vector graphics, menu, and moveable player avatar. </p>
-        <img src="images/maze.PNG" class = "centimg">
-
+        <br>
 
         <h2> Safewalk (2018)</h2>
         <p> Group created Uber-like web-app for escorted walkers on university campuses. Created with React.js frontend and a Java/mySQL backend.
           I coded the websockets dealing with live-updated locations, directions, and pickup/dropoff. </p>
-          <img src="images/safewalkLogin.PNG" class = "centimg"><br>
-          <img src="images/safewalk.PNG" class = "centimg">
-
+        <img src="images/safewalkLogin.PNG" class = "centimg"><br>
+        <img src="images/safewalk.PNG" class = "centimg">
+        <br>
 
         <h2> Swine Flu County Fair Research (2018)</h2>
         <p> Analyzed sequence data from decades of pigs from decades of county fairs and visualized the data in many ways using R. </p>
         <img src="images/positive.gif" class = "centimg"><br>
         <img src="images/filled.PNG" class = "centimg"><br>
-
-
+        <br>
 
         <h2> Custom Genetic Sequence Data Subsampling Tool (2018)</h2>
         <p> A tool allowing representative subsampling of large data sets of over 30,000 sequences.
         For example, it is possible to take all sequences of human hosts, take 50 randomly per year with a minimum of 5 per continent.
         Additionally has options to cut out sparse sequences. Written in python. </p>
+        <p> Also contains functionality for removing duplicates, trimming sparse sequences, and converting between file types </p>
+        <br>
+
+        <!--
+        <h2> Maze Generation (2015)</h2>
+        <p> Random maze generation in Java using Prim's algorithm, later added vector graphics, menu, and moveable player avatar. </p>
+        <img src="images/maze.PNG" class = "centimg">
+        -->
       </div>
 
 
