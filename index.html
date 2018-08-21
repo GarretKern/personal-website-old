@@ -35,41 +35,121 @@
 
       <div id = "projects"  class = "tabcontent">
         <hr>
-        <h2> Tron </h2>
-        <p> Simple Tron desktop app created over a few days because I was curious about electron.js.
-          User can play against an AI implementing a minimax algorithm </p>
-        <img src="images/tron.PNG" class = "centimg">
-        <br><hr>
+        <div class = "tab">
+          <button onclick="nextSlide(-1)" style = "font-size:15px" class="tablinks"> Previous </button>
+          <button onclick="nextSlide(1)" style = "font-size:15px" class="tablinks"> Next </button>
+        </div>
+        <hr>
 
-        <h2> EZ Chat </h2>
-        <p> Simple chat web-app to teach myself the ultra-basics of socket.io and express.js. </p>
-        <img src="images/ezHome.PNG" class = "centimg"><br>
-        <img src="images/ezChat.PNG" class = "centimg">
-        <br><hr>
+        <div class = "slide">
+          <h2> Tron </h2>
+          <p>
+            Language: Javascript <br>
+            Resources: Node.js, Electron.js <br>
+            Date: Summer 2018 <br>
+            Created For: Fun
+          </p>
+          <p>Simple Tron game desktop app I created to learn more about electron.js.
+            User can play against an AI implementing a minimax algorithm.
+          </p>
+          <p>
+            The AI chooses it's moves to maximize the number of tiles it can reach before you,
+            and minimize the total number of tiles you can reach
+          </p>
+            <img src="images/tron.PNG" class = "centimg">
+        </div>
 
-        <h2> Safewalk </h2>
-        <p> Group created Uber-like web-app for escorted walkers on university campuses. Created with React.js frontend and a Java/mySQL backend.
-          I coded the websockets dealing with live-updated locations, directions, and pickup/dropoff. </p>
-        <img src="images/safewalkLogin.PNG" class = "centimg"><br>
-        <img src="images/safewalk.PNG" class = "centimg">
-        <br><hr>
+        <div class = "slide">
+          <h2> EZ Chat </h2>
+          <p>
+            Language: Javascript <br>
+            Resources: Node.js, Socket.io, Express.js <br>
+            Date: Summer 2018 <br>
+            Created For: Fun
+          </p>
+          <p>
+            Simple chat web-app I created to teach myself the ultra-basics of socket.io and express.js.
+          </p>
+          <p>
+            A user can choose a name for a chatroom and anyone else with that name can join to talk.
+          </p>
+          <img src="images/ezHome.PNG" class = "centimg"><br>
+          <img src="images/ezChat.PNG" class = "centimg">
+        </div>
 
-        <h2> Swine Flu County Fair Research </h2>
-        <p> Analyzed sequence data from decades of pigs from decades of county fairs and visualized the data in many ways using R. </p>
-        <img src="images/positive.gif" class = "centimg"><br>
-        <img src="images/filled.PNG" class = "centimg"><br>
-        <br><hr>
+        <div class = "slide">
+          <h2> Swine Flu County Fair Research </h2>
+          <p>
+            Language: R, python <br>
+            Resources: ggplot2, gganimate <br>
+            Date: Summer 2018 <br>
+            Created For: Work
+          </p>
+          <p>
+            Analyzed sequence data from decades of pigs from decades of county fairs and visualized the data in many ways using R.
+          </p>
+          <p>
+            Formatted different datasets using quick python scripts and graphed them with R.
+          </p>
+          <img src="images/positive.gif" class = "centimg"><br>
+          <img src="images/filled.PNG" class = "centimg"><br>
+          <img src="images/map.PNG" class = "centimg"><br>
+        </div>
 
-        <h2> Bangladesh Norovirus Research </h2>
-        <p> explane </p>
-        <br><hr>
+        <div class = "slide">
+          <h2> Fasta Tool </h2>
+          <p>
+            Language: Python <br>
+            Resources:  cxFreeze<br>
+            Date: Summer 2018 <br>
+            Created For: Work
+          </p>
+          <p>
+            A tool offering a variety of operations that can be performed on fasta files containing genetic data. <br>
+            Offers subsampling, for example taking all sequences of human hosts, take 50 randomly per year with at least 5 per continent per year.
+          </p>
+          <p>
+            Also contains functionality for removing duplicates, removing incorrecly formatted entries, trimming sparse sequences, and converting between file types.
+          </p>
+          <p>
+            Created .exe and .dmg versions of the tool for easy distribution to biologists who lack computer skills.
+          </p>
+        </div>
 
-        <h2> Fasta Tool </h2>
-        <p> A tool allowing representative subsampling of large data sets of over 30,000 sequences.
-        For example, it is possible to take all sequences of human hosts, take 50 randomly per year with a minimum of 5 per continent.
-        Additionally has options to cut out sparse sequences. Written in python. </p>
-        <p> Also contains functionality for removing duplicates, trimming sparse sequences, and converting between file types </p>
-        <br><hr>
+        <div class = "slide">
+          <h2> Safewalk </h2>
+          <p>
+            Language: Java, SQL, Javascript, HTML/CSS <br>
+            Resources: React.js, Spark, Freemarker, SQLite <br>
+            Date: Spring 2018 <br>
+            Created For: School
+          </p>
+          <p>
+            I was part of a group that created an Uber-like web-app for escorting walkers on university campuses.
+          </p>
+          <p>
+            I coded the websockets dealing with live-updated locations, directions, and pickup/dropoff.
+          </p>
+          <img src="images/safewalkLogin.PNG" class = "centimg"><br>
+          <img src="images/safewalk.PNG" class = "centimg">
+        </div>
+
+        <div class = "slide">
+          <h2> Autocorrect </h2>
+          <p>
+            Language: Java,Javascript, HTML/CSS <br>
+            Resources: Spark, Freemarker <br>
+            Date: Spring 2018 <br>
+            Created For: School
+          </p>
+          <p>
+            I created an autocorrect interface that offers suggestions for mispelled or incomplete words.
+          </p>
+          <p>
+            Uses a Trie datastructure for space-efficient storage of large text documents.
+          </p>
+          <img src="images/suggest.PNG" class = "centimg"><br>
+        </div>
 
       </div>
 

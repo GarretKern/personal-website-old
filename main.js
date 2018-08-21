@@ -29,3 +29,32 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+var x;
+var slideIndex;
+
+$(function(){
+  slideIndex = 1;
+  x = document.getElementsByClassName("slide");
+  showSlides(slideIndex);
+})
+
+function nextSlide(n) {
+  showSlides(slideIndex += n);
+}
+
+function slideNum(n) {
+  showDivs(slideIndex = n);
+}
+
+
+function showSlides(n) {
+  var i;
+
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex - 1].style.display = "block";
+}

@@ -1,11 +1,17 @@
 /* Tab Elements */
-
+html {
+  overflow-y: scroll;
+}
 
 #projects{
   font-size: 18px;
   text-align: left;
   width: 650px;
   margin: 0 auto;
+}
+
+.slide {
+  display: none;
 }
 
 /* Page Elements */
@@ -23,7 +29,7 @@
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -49,6 +55,7 @@ hr {
   margin-right: 2%;
   margin-top: 2%;
   margin-bottom: 2%;
+  font-family: 'calibri';
 }
 
 
@@ -93,7 +100,7 @@ hr {
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
-        color: #A52A2A
+    color: #A52A2A
 }
 
 .tab button:hover {
