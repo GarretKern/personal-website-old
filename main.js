@@ -1,3 +1,4 @@
+// Typed words on home screen
 $(function(){
   $(".iama").typed({
       strings: ["Backpacker", "Runner", "Leader", "Statistician", "Developer^2500"],
@@ -7,15 +8,7 @@ $(function(){
   });
 })
 
-$(function(){
-  $(".projectsin").typed({
-      strings: ["Python", "Javascript", "Node.js", "Java", "R+ggplot"],
-      typeSpeed: 50,
-      backSpeed: 20,
-      loop: true
-  });
-})
-
+// Open tabs (home, resume, etc)
 function openTab(evt, tabName) {
     let i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -30,6 +23,8 @@ function openTab(evt, tabName) {
     evt.currentTarget.className += " active";
 }
 
+
+// Switch between projects
 var x;
 var slideIndex;
 
